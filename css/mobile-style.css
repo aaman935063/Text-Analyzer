@@ -1,0 +1,166 @@
+@media only screen and (max-width:1220px) {
+  .main-container .box {
+    height: 170px;
+    width: 170px;
+  }
+
+  :root {
+    --heading: 4rem;
+    --nav: 1.5rem;
+
+  }
+}
+
+@media only screen and (max-width:986px) {
+  .main-container .box {
+    height: 126px;
+    width: 126px;
+  }
+
+  :root {
+    --heading: 3rem;
+    --nav: 1rem;
+  }
+
+  .main-container .box a.btn-primary {
+    transform: translateY(-4px);
+  }
+
+  .section {
+    height: calc(70vh - 100px);
+  }
+
+  body {
+
+    margin: 150px 50px;
+  }
+}
+
+@media only screen and (max-width:775px) {
+  .section {
+
+
+    height: calc(1050px - 100px);
+
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+
+  }
+
+  body {
+    margin: 50px;
+  }
+
+  .main-container .box {
+    height: 188px;
+    width: 188px;
+  }
+
+  :root {
+    --heading: 5rem;
+    --nav: 1.5rem;
+  }
+}
+
+@media only screen and (max-width:550px) {
+  .section {
+
+
+    height: calc(2037px - 100px);
+
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(8, auto);
+
+  }
+}
+
+@media only screen and (max-width:335px) {
+  .main-container .box {
+    height: 134px;
+    width: 134px;
+  }
+
+  .section {
+
+
+    height: calc(1567px - 100px);
+  }
+
+  :root {
+    --heading: 4rem;
+    --nav: 1rem;
+  }
+}
+
+/* @media only screen and (max-width:768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+
+  .section-2 .cover {
+    background-position: -25vmin -10vmin;
+  }
+
+  .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+
+  .section-3 {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+
+  .section-3 .row h1 {
+    padding: 6vmin 4vmin;
+  }
+
+
+  .section-3 .row .col-md-6 {
+    text-align: center !important;
+  }
+
+  .section-3 .desktop i {
+    font: size 8vmin;
+  }
+
+  .section-4 .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .section-4 .carousel-inner {
+    width: 24rem;
+
+  }
+
+}
+
+@media only screen and (max-width:425px) {
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+
+}
+
+@media only screen and (max-width:325px) {
+  .section-4 .card {
+    width: 18rem;
+  }
+
+  .section-4 .carousel-inner {
+    margin-left: -14vmin;
+  }
+} */
